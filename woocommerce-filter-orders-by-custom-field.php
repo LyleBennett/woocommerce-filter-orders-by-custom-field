@@ -70,8 +70,8 @@ if ( is_admin() ) {
 						'order'          => 'DESC',
 						'meta_query'     => array(
 							array(
-								'key'     => 'billing_area',
-								'value'   => 'Atlantic Seaboard (Mouille Point, Green Point, Sea Point, Fresnaye, Three Anchor Bay, Bantry Bay, Bakoven, Clifton, Camps Bay, Llandudno, Hout Bay)',
+								'key'     => '_billing_area',
+								'value'   => 'Atlantic Seaboard',
 								'compare' => '!=',
 							),
 						),
@@ -93,8 +93,8 @@ if ( is_admin() ) {
 						'order'          => 'DESC',
 						'meta_query'     => array(
 							array(
-								'key'     => 'billing_area',
-								'value'   => 'Northern Suburbs (Milnerton, Century City, Paarden Eiland, Table View, Sunset Beach, Parklands, Bellville, Bloubergstrand, Big Bay, Thorton, Plattekloof, Parow, Panorama, Monte Vista, Goodwood, Edgemead, Brooklyn, Welgemoed)',
+								'key'     => '_billing_area',
+								'value'   => 'Northern Suburbs',
 								'compare' => '!=',
 							),
 						),
@@ -116,8 +116,8 @@ if ( is_admin() ) {
 						'order'          => 'DESC',
 						'meta_query'     => array(
 							array(
-								'key'     => 'billing_area',
-								'value'   => 'City Bowl (City Bowl, Devils Peak, Higgovale, Gardens, Oranjezicht, Tamboerskloof, Vredehoek, Zonnebloem, De Waterkant, Waterfront, Woodstock, Observatory, Walmer Estate)',
+								'key'     => '_billing_area',
+								'value'   => 'City Bowl',
 								'compare' => '!=',
 							),
 						),
@@ -140,8 +140,8 @@ if ( is_admin() ) {
 						'order'          => 'DESC',
 						'meta_query'     => array(
 							array(
-								'key'     => 'billing_area',
-								'value'   => 'Southern Suburbs (Bergvliet, Bishopscourt, Claremont, Constantia, Diep River, Kenilworth, Mowbray, Newlands, Ottery, Pinelands, Plumstead, Rondebosch, Tokai, Wynberg)',
+								'key'     => '_billing_area',
+								'value'   => 'Southern Suburbs',
 								'compare' => '!=',
 							),
 						),
